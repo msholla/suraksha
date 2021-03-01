@@ -23,16 +23,7 @@ console.log("list of book by price ",b1.getlistprice(100),b2.getlistprice(200));
 
 
 
-for (var i = 0; i < book.length; i++) 
-   {
-    var bb = "'" + book[i].price + "'" + ' by ' + book[i].author + ".";
-    if (book[i].readingStatus) {
-      console.log("Already read " + bb);
-    } else
-    {
-     console.log("You still need to read " + book);
-    }
-   }
+
 
 // class bookManager extends book{
 
